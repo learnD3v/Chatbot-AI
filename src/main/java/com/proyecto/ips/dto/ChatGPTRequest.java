@@ -15,7 +15,7 @@ public class ChatGPTRequest {
         this.model = model;
         this.messages = new ArrayList<>();
         this.messages.add(new Message("user",prompt));
-        this.setMax_tokens(2);
-        this.setTemperature(0.1);
+        this.setMax_tokens(60);
+        this.setTemperature(0);
     }
 }
